@@ -318,7 +318,14 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-
+img {
+  vertical-align: middle;
+}
+.img-responsive {
+  display:block;
+  max-width: 100%;
+  height: auto;
+}
 input {
   line-height: normal;
 }
@@ -878,4 +885,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
